@@ -4,5 +4,6 @@ Running the project:
         - Go to "Manage Key", select "Websockets" and your preferred Network (Mainnet, Goerli, etc.)
         - Copy url of Endpoint
     - In a terminal save the url of the endpoint as an environment variable called "URL"
-    - To start the application run "node index.js" in the terminal
+    - Start MongoDB by running "mongod" in a terminal
+    - To start the application run "node index.js" in the same terminal where the environment variable "URL" was saved
 
